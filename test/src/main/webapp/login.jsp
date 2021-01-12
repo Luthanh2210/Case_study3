@@ -5,7 +5,7 @@
   Time: 2:03 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -40,12 +40,9 @@
                 </div>
                 <button type="submit" class="btn btn-black">Login</button>
                 <button type="submit" class="btn btn-secondary">Register</button>
-                <br>${message}
             </form>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 </body>
