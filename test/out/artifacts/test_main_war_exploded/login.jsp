@@ -13,93 +13,12 @@
     <meta charset="UTF-8">
     <title>Login Page</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/login.css" rel="stylesheet" type="text/css" media="all" />
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
-    <style>
-        body {
-            font-family: "Lato", sans-serif;
-        }
 
-
-
-        .main-head{
-            height: 150px;
-            background: #FFF;
-
-        }
-
-        .sidenav {
-            height: 100%;
-            background-color: #42a2e1;
-            overflow-x: hidden;
-            padding-top: 20px;
-        }
-
-
-        .main {
-            padding: 0px 10px;
-
-        }
-
-        @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-        }
-
-        @media screen and (max-width: 450px) {
-            .login-form{
-                margin-top: 10%;
-            }
-
-            .register-form{
-                margin-top: 10%;
-            }
-        }
-
-        @media screen and (min-width: 768px){
-            .main{
-                margin-left: 40%;
-
-            }
-
-            .sidenav{
-                width: 40%;
-                position: fixed;
-                z-index: 1;
-                top: 0;
-                left: 0;
-            }
-
-            .login-form{
-                margin-top: 80%;
-            }
-
-            .register-form{
-                margin-top: 20%;
-            }
-        }
-
-
-        .login-main-text{
-            margin-top: 20%;
-            padding: 60px;
-            color: #fff;
-        }
-
-        .login-main-text h2{
-            font-weight: 300;
-        }
-
-        .btn-blue{
-            background-color: #42a2e1 !important;
-            color: #fff;
-        }
-        .btn-second{
-            background-color: #b2daf5 !important;
-            color: #fff;
-        }
-    </style>
 </head>
 <body>
 <div class="sidenav">
@@ -127,6 +46,18 @@
             </form>
         </div>
     </div>
+    <ul class="colorlib-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </div>
 
 </body>
