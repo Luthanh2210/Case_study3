@@ -5,8 +5,23 @@ import java.io.Serializable;
 public class User implements Serializable {
     private int id;
     private String fullname;
+    private String email;
     private String username;
     private String password;
+    public User() {
+    }
+    public User(int id, String fullname, String email,String username ,String password) {
+        this.id = id;
+        this.fullname = fullname;
+        this.email = email;
+        this.username = username;
+        this.password = password;
+    }
+
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 
     public int getId() {
         return id;
@@ -23,6 +38,10 @@ public class User implements Serializable {
     public void setFullname(String fullname) {
         this.fullname = fullname;
     }
+
+    public String getEmail() { return email; }
+
+    public void setEmail(String email) { this.email = email; }
 
     public String getUsername() {
         return username;

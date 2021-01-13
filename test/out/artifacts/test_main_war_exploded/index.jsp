@@ -84,8 +84,8 @@
                             <!-- Login/Register btn -->
                             <div class="login-register-btn">
                                 <c:if test="${user == null}">
-                                    <a href="login.jsp">Login</a>
-                                    <a href="#">/ Register</a>
+                                    <a href="login">Login</a>
+                                    <a href="regs">/ Register</a>
                                 </c:if>
                                 <c:if test="${user != null}">
                                     <b style="color: red">${user.fullname}</b>

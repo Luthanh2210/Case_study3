@@ -22,7 +22,16 @@ public class UserLoginServlet extends HttpServlet {
     public UserLoginServlet() {
         super();
     }
-
+    protected void doGet(HttpServletRequest request, HttpServletResponse response){
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/login.jsp");
+        try {
+            dispatcher.forward(request,response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String username = request.getParameter("username");
