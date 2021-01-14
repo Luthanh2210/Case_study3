@@ -88,7 +88,8 @@
                                     <a href="regs">/ Register</a>
                                 </c:if>
                                 <c:if test="${user != null}">
-                                    <b style="color: red">${user.fullname}</b>
+                                    <a href="up">
+                                    <b style="color: red" >${user.fullname}</b></a>
                                     <a href="logout">/ Logout</a>
                                 </c:if>
 
@@ -108,17 +109,17 @@
         <!-- Single Hero Slides -->
         <div class="single-hero-slide d-flex align-items-end justify-content-center">
             <div class="hero-slide-content text-center">
-                <h2>A Clean and Modern Template</h2>
-                <h4>Get your freebie template now!</h4>
-                <img class="slide-img" src="img/bg-img/device.png" alt="">
+                <h2>Strategy & Business</h2>
+                <h4>To see the future more clearly, find your blind spots!</h4>
+                <img class="slide-img" src="img/bg-img/devices.png" alt="">
             </div>
         </div>
         <!-- Single Hero Slides -->
         <div class="single-hero-slide d-flex align-items-end justify-content-center">
             <div class="hero-slide-content text-center">
-                <h2>A Clean and Modern Template</h2>
-                <h4>Get your freebie template now!</h4>
-                <img class="slide-img" src="img/bg-img/device.png" alt="">
+                <h2>Strategy & Business</h2>
+                <h4>To see the future more clearly, find your blind spots!</h4>
+                <img class="slide-img" src="img/bg-img/devices.png" alt="">
             </div>
         </div>
     </div>
@@ -135,37 +136,37 @@
                     <div class="single-service-area text-center">
                         <h2>01.</h2>
                         <h4>No1 in Sales!</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+
                     </div>
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>02.</h2>
                         <h4>Online Marketing</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+
                     </div>
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>03.</h2>
-                        <h4>Modern Design</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                        <h4>Modern strategist</h4>
+
                     </div>
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>04.</h2>
                         <h4>No1 in Sales!</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+
                     </div>
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>05.</h2>
                         <h4>Online Marketing</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+
                     </div>
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>06.</h2>
-                        <h4>Modern Design</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                        <h4>Modern Strategist</h4>
+
                     </div>
                 </div>
             </div>
@@ -212,7 +213,6 @@
                     <h2>What you get if you start your business with us</h2>
                 </div>
                 <div class="features-content">
-                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio ves tibul. Nec odio vestibulum est mattis effic iturut magna. Pellente sque sita met tellus blandit. Etiam nec odio.</p>
                     <!-- Progress Bar Content Area -->
                     <div class="features-progress-bar mt-50">
                         <!-- Single Progress Bar -->
@@ -263,28 +263,28 @@
         <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".1s">
             <img src="img/core-img/trophy.png" alt="">
             <h4>No1 in Sales!</h4>
-            <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
+
         </div>
     </div>
     <div class="single-more-service-area">
         <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".4s">
             <img src="img/core-img/edit.png" alt="">
             <h4>Documentation inside</h4>
-            <p>Tiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
+
         </div>
     </div>
     <div class="single-more-service-area">
         <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".7s">
             <img src="img/core-img/video-camera.png" alt="">
-            <h4>Modern Design</h4>
-            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
+            <h4>Modern strategist</h4>
+
         </div>
     </div>
     <div class="single-more-service-area">
         <div class="more-service-content text-center wow fadeInUp" data-wow-delay="1s">
             <img src="img/core-img/presentation.png" alt="">
             <h4>Marketing Strategist</h4>
-            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
+
         </div>
     </div>
 </section>
@@ -426,7 +426,8 @@
                             <h2>1.</h2>
                             <div class="workflow-content ml-15">
                                 <h4>This is the first step</h4>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                               <p>The First Stage of Business Development: Having Value <br>
+                                   The first stop on the path to successful business development is the Having Value stage, where you stop, strategize, and plan your course.</p>
                             </div>
                         </div>
                         <!-- Single Service Area -->
@@ -434,7 +435,7 @@
                             <h2>2.</h2>
                             <div class="workflow-content ml-15">
                                 <h4>This is the second step</h4>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                                <p>The second step on the path is the Communicating Value stage, <br> where we focus our efforts on convincing others to buy our products or to get excited about the prospect of partnership..</p>
                             </div>
                         </div>
                         <!-- Single Service Area -->
@@ -442,15 +443,16 @@
                             <h2>3.</h2>
                             <div class="workflow-content ml-15">
                                 <h4>This is the third step</h4>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                                <p>To arrive in the final stage of the business development process,<br>
+                                    the Delivering Value stage, means that you have successfully sold others on the promise that your company can provide value.</p>
                             </div>
                         </div>
                         <!-- Single Service Area -->
                         <div class="single-workflow-area d-flex">
                             <h2>4.</h2>
                             <div class="workflow-content ml-15">
-                                <h4>This is the fourth step</h4>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.</p>
+                                <h4>This is the extra step</h4>
+                                <p>Try to improve it even better</p>
                             </div>
                         </div>
                     </div>
@@ -488,7 +490,6 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
                         <a href="#" class="mb-50 d-block"><img src="img/core-img/logo.png" alt=""></a>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellent esque sit amet tellus blandit. Etiam nec odio vestibul.</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
@@ -508,7 +509,7 @@
                         <h5>Blog</h5>
                         <div class="footer-single--blog-post">
                             <a href="#" class="blog-post-date">
-                                <p>23 September, 2017</p>
+                                <p>23 September, 2021</p>
                             </a>
                             <a href="#" class="blog-post-title">
                                 <h6>Why we love stock photos</h6>
@@ -516,7 +517,7 @@
                         </div>
                         <div class="footer-single--blog-post">
                             <a href="#" class="blog-post-date">
-                                <p>22 September, 2017</p>
+                                <p>22 September, 2021</p>
                             </a>
                             <a href="#" class="blog-post-title">
                                 <h6>Designin on grid. A few rules. </h6>
@@ -524,7 +525,7 @@
                         </div>
                         <div class="footer-single--blog-post">
                             <a href="#" class="blog-post-date">
-                                <p>20 September, 2017</p>
+                                <p>20 September, 2021</p>
                             </a>
                             <a href="#" class="blog-post-title">
                                 <h6>2017 World Design Congress</h6>

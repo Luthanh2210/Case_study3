@@ -397,7 +397,7 @@
                         <h5>Blog</h5>
                         <div class="footer-single--blog-post">
                             <a href="#" class="blog-post-date">
-                                <p>23 September, 2017</p>
+                                <p>23 September, 2021</p>
                             </a>
                             <a href="#" class="blog-post-title">
                                 <h6>Why we love stock photos</h6>
@@ -405,7 +405,7 @@
                         </div>
                         <div class="footer-single--blog-post">
                             <a href="#" class="blog-post-date">
-                                <p>22 September, 2017</p>
+                                <p>22 September, 2021</p>
                             </a>
                             <a href="#" class="blog-post-title">
                                 <h6>Designin on grid. A few rules. </h6>
@@ -413,7 +413,7 @@
                         </div>
                         <div class="footer-single--blog-post">
                             <a href="#" class="blog-post-date">
-                                <p>20 September, 2017</p>
+                                <p>20 September, 2021</p>
                             </a>
                             <a href="#" class="blog-post-title">
                                 <h6>2017 World Design Congress</h6>

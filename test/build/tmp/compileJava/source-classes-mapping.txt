@@ -1,12 +1,18 @@
 com/codygym/controller/UserLoginServlet.java
  com.codygym.controller.UserLoginServlet
-com/codygym/controller/UserLogoutServlet.java
- com.codygym.controller.UserLogoutServlet
+com/codygym/dao/RegisterDao.java
+ com.codygym.dao.RegisterDao
 com/codygym/model/User.java
  com.codygym.model.User
 com/codygym/dao/UserDao.java
  com.codygym.dao.UserDao
-com/codygym/dao/RegisterDao.java
- com.codygym.dao.RegisterDao
+com/codygym/controller/UserDeleteServlet.java
+ com.codygym.controller.UserDeleteServlet
 com/codygym/controller/UserSignupServlet.java
  com.codygym.controller.UserSignupServlet
+com/codygym/controller/UserUpdateServlet.java
+ com.codygym.controller.UserUpdateServlet
+com/codygym/dao/UpdateDao.java
+ com.codygym.dao.UpdateDao
+com/codygym/controller/UserLogoutServlet.java
+ com.codygym.controller.UserLogoutServlet
