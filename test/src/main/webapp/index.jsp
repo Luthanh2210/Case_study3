@@ -147,7 +147,7 @@
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>03.</h2>
-                        <h4>Modern strategist</h4>
+                        <h4>Modern Strategy</h4>
 
                     </div>
                     <!-- Single Service Area -->
@@ -159,13 +159,13 @@
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>05.</h2>
-                        <h4>Online Marketing</h4>
+                        <h4> Funding your Bussiness</h4>
 
                     </div>
                     <!-- Single Service Area -->
                     <div class="single-service-area text-center">
                         <h2>06.</h2>
-                        <h4>Modern Strategist</h4>
+                        <h4>Experience Strategist</h4>
 
                     </div>
                 </div>
